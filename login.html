@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header1">
+		<div class="container">
+ 			<div class="navigasi">
+ 				<ul>
+ 					<li>
+ 						<button class="btn-login">LOGIN</button>
+ 					</li>
+ 					<li class="titlea">UNEJVERSALE</li>
+ 				</ul>
+ 			</div>
+ 			<div class="login">
+ 				<div class="title-login">
+ 					<h1>LOGIN</h1>
+ 				</div>
+ 				<hr class="garis">
+
+ 				<div class="form">
+ 					<p id="demo" style="color:red"></p>
+ 					<label >Username/Email :</label>
+ 					<br>
+ 					<input type="text" name="username" placeholder="username" class="input-login" required>
+ 					<br>
+ 					<label>Password :</label>
+ 					<br>
+ 					<input type="password" name="password" placeholder="password" class="input-login" required>
+ 					<br>
+ 					<label>NIM :</label>
+ 					<br>
+ 					<input type="text" name="nim" placeholder="nim" class="input-login" required>
+ 					<br>
+ 					<div class="btn">
+ 					<a href="home.html"> <button class="btn-login-form">LOGIN</button></a> 	
+ 					</div>
+
+ 					<div class="footer-login">
+ 						<div class="footer-text"><a href="register.html">Belum punya akun? Daftar</a></div>
+ 						<div class="footer-text"><a href="lupa.html">Lupa password?</a></div>
+ 					</div>
+ 					<script type="text/javascript">
+ 						function login(){
+ 							var x,y,z text;
+ 							x = document.getElementById('username').value;
+ 							y = document.getElementById('password').value;
+ 							z = document.getElementById('NIM').value;
+
+ 							if (x ==="ungki" && y ==="ungki12345" && z ==="182410101032") {
+ 								window.location.href="home.html";
+ 							} else {
+ 								text = "usernama/password/NIM salah";
+ 								document.getElementById("demo").innerHTML = text;
+ 							}	
+ 						}
+ 					</script>
+ 			</div>
+ 		</div>	
+	</div>
+</body>
+</html>
+
