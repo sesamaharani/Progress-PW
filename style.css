@@ -372,3 +372,25 @@ a{
 	background-color: black;
 	float: left;
 }
+@media only screen and (max-width: 600px) {
+    .kolom {
+    	width: 50%;
+    }
+    .kolomm{
+        width: 60%;
+    }
+    .kolom2 {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .kolom {
+    	width: 25%;
+    }
+    .kolomm{
+        width: 30%;
+    }
+    .kolom2 {
+        width: 25%;
+    }
+}

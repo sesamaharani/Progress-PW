@@ -23,7 +23,6 @@
  					<h1>DAFTAR</h1>
  				</div>
  				<hr class="garis">
-
  				<div class="form1">
  					<label >Email :</label>
  					<br>
@@ -53,9 +52,19 @@
 			        Wanita
 			        <br>
  					<div class="btn">
- 					<a href="login.html"><button class="btn-login-form">DAFTAR</button></a>	
+ 					<a href="login.html"><button class="btn-login-form" type="submit" name="button"  onclick="return IsEmpty();">DAFTAR</button></a>	
  					</div><br>
  				</div>
  			</div>
+ 			  <script type="text/javascript">
+ 			  	function IsEmpty() {
+ 			  		if (document.forms['frm'].password.value === "") {
+ 			  			alert("Harap Isi Formnya ya");
+ 			  			return false;
+ 			  			}
+ 			  			confirm("Klik,untuk lanjutkan");
+ 			  			return true;
+ 			  		}
+ 			  </script>
 </body>
 </html>
