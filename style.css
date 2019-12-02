@@ -382,6 +382,16 @@ a{
     .kolom2 {
         width: 60%;
     }
+    .judul{
+    	font-size: 20px;
+    }
+    .fotoproduk2{
+    	width: 100%;
+    	display: block;
+    }
+    .fotoproduk2 img{
+    	width: 100%;
+    }
 }
 @media only screen and (max-width: 300px) {
     .kolom {
@@ -393,4 +403,5 @@ a{
     .kolom2 {
         width: 25%;
     }
+
 }
