@@ -16,6 +16,9 @@
  						<img src="search.png" width="25px">
  					</li>
  					<li>
+ 						<input type="text" name="search" placeholder="Search..." style="border-radius: 2px;border: 1px solid black; padding: 2%;width: 125px;margin-right: 4%;margin-bottom: 2%;">
+ 					</li>
+ 					<li>
  						<a href="login.html"> <button class="btn-login"> LOGIN</button> </a>
  					</li>
  					<li>Bantuan</li>
